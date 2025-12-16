@@ -53,11 +53,11 @@ Google Drive에서 다운로드한 SmartEraser 가중치와 ViT-L SAM model를
 image_service/  
 │  
 ├─ Grounded-Segment-Anything/  
-│  └─ models
-│     └─ **sam_vit_b_01ec64.pth**
+│  └─ models  
+│     └─ **sam_vit_b_01ec64.pth**  
 ├─ SmartEraser/  
-│  └─ Model_framework/ckpts/ 
-│     └─ **smarteraser-weights** 
+│  └─ Model_framework/ckpts/  
+│     └─ **smarteraser-weights**  
 ├─ main.py  
 ├─ img_utils.py  
 └─ Dockerfile  
