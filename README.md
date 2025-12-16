@@ -15,10 +15,18 @@
 - **24x7 시간 슬롯** 기준으로 청소 수행 확률을 값으로 가지는 사용자 행동 벡터를 생성.
 
 ## 기술 스택
-| 구분         | 사용 기술                |
-|--------------|--------------------------|
-| **최적화 알고리즘** | Pulp (Python Linear Programming) |
-| **강화 학습**  | Tianshou (RL Framework) |
+
+| 구분 | 사용 기술 |
+|------|-----------|
+| **최적화 알고리즘** | [PuLP](https://github.com/coin-or/pulp) (Python Linear Programming) |
+| **강화 학습** | [Tianshou](https://github.com/thu-ml/tianshou) (Reinforcement Learning Framework) |
+| **딥러닝 프레임워크** | [PyTorch](https://pytorch.org/) |
+| **컴퓨터 비전** | OpenCV, Pillow, scikit-image |
+| **비전 모델** | Grounded-Segment-Anything, SAM |
+| **이미지 생성 / 편집** | SmartEraser (Diffusion 기반) |
+| **API 서버** | FastAPI |
+| **실행 환경** | Docker, NVIDIA CUDA |
+
 
 
 ### 3. 이미지 처리 서비스 (Grounded-SAM + SmartEraser)
