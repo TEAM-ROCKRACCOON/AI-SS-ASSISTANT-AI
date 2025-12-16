@@ -19,3 +19,6 @@
 |--------------|--------------------------|
 | **최적화 알고리즘** | Pulp (Python Linear Programming) |
 | **강화 학습**  | Tianshou (RL Framework) |
+
+https://github.com/IDEA-Research/Grounded-Segment-Anything
+https://github.com/longtaojiang/SmartEraser
